@@ -1,0 +1,35 @@
+body {
+  background: #000;
+  color: #f6f6f6;
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #dd0;
+}
+
+pre {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+section ol {
+  list-style-position: inside;
+  text-align: center;
+}
+
+footer {
+  background: #f4f4f4;
+  color: #000;
+}
+
+footer a {
+  color: #f0f;
+}
