@@ -2,21 +2,32 @@ body {
   background: #000;
   color: #f6f6f6;
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  line-height: 18px;
   margin: 0 auto;
   text-align: center;
+}
+
+h1 {
+  margin: 0.2em;
 }
 
 a {
   color: #dd0;
 }
 
-pre {
+header {
+  padding: 20px 10px 10px;
+}
+
+#logo {
+  font-family: Lucida Console, Courier New, fixed-width;
   font-size: 36px;
-  line-height: 44px;
+  line-height: 40px;
 }
 
 section {
   margin: 0 auto;
+  padding: 5px;
   text-align: center;
 }
 
@@ -26,10 +37,23 @@ section ol {
 }
 
 footer {
-  background: #f4f4f4;
-  color: #000;
+  color: #f6f6f6;
 }
 
-footer a {
-  color: #f0f;
+@media screen and (max-width: 550px) {
+  body {
+    line-height: 20px;
+  }
+  #logo {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  section, section ol {
+    margin: auto;
+    padding: 5px 20px;
+    text-align: left;
+  }
+  section ol {
+    padding: 5px 10px;
+  }
 }
