@@ -1,5 +1,5 @@
 body {
-  background: #000;
+  background: rgba(1,1,1,0.9);
   color: #f6f6f6;
   font: 16px/26px Helvetica, Helvetica Neue, Arial;
   line-height: 18px;
@@ -13,6 +13,13 @@ h1 {
 
 a {
   color: #dd0;
+}
+
+img#screenshot {
+  width: 95%;
+  height: 95%;
+  max-width: 640px;
+  max-height: 427px;
 }
 
 header {
